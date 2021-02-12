@@ -1,0 +1,28 @@
+/*---------GENERAL------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*---------FOOTER-----------*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+
+  .attribution a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+  }
