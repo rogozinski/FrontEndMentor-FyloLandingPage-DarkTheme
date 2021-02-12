@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark navbar-expand me-auto justify-content-around">
+  <nav id="mainNavbar" class="navbar navbar-expand my-4">
     <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Fylo Logo"></a>
     <ul class="navbar-nav">
       <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
@@ -29,20 +29,21 @@
       <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
     </ul>
   </nav>
-  <main class="container flex-column">
-    <section class="text-center m-auto w-75">
+  <main class="container">
+    <section id="intro_section" class="text-center m-auto w-75">
       <img src="images/illustration-intro.png" alt="Intro" class="img-fluid">
       <h1>All your files in one secure location, accessible anywhere.</h1>
 
-      <p>Fylo stores all your most important files in one secure location. Access them wherever
+      <p class="mt-2 mx-auto w-50">Fylo stores all your most important files in one secure location. Access them
+        wherever
         you need, share and collaborate with friends family, and co-workers.
       </p>
-      <button>Get started</button>
+      <button class="btn btn-info rounded-pill mt-2">Get started</button>
     </section>
 
-    <section class="text-center">
-      <div class="row">
-        <div class="col-6">
+    <section class="text-center mx-auto">
+      <div class="row my-5 justify-content-center">
+        <div class="col-5">
           <img src="images/icon-access-anywhere.svg" alt="">
           <h2>Access your files, anywhere</h2>
           <p>
@@ -50,7 +51,7 @@
             files follow you everywhere.
           </p>
         </div>
-        <div class="col-6">
+        <div class="col-5">
           <img src="images/icon-security.svg" alt="">
           <h2>Security you can trust</h2>
           <p>
@@ -59,8 +60,8 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
+      <div class="row my-5 justify-content-between">
+        <div class="col-5 pt-5">
           <img src="images/icon-collaboration.svg" alt="">
           <h2>Real-time collaboration</h2>
           <p>
@@ -68,7 +69,7 @@
             No email attachments required.
           </p>
         </div>
-        <div class="col-6">
+        <div class="col-5 pt-5">
           <img src="images/icon-any-file.svg" alt="">
           <h2>Store any type of file</h2>
           <p>
@@ -144,7 +145,7 @@
   <!--FOOTER-->
   <footer class="container-fluid">
     <div class="row">
-
+      <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Fylo Logo"></a>
     </div>
     <div class="row">
       <div class="col">
