@@ -9,6 +9,7 @@ body{
     align-items: space-between;
 }
 
+
 h1, h2, h3, h4, h5, h6, a, button {
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -49,6 +50,14 @@ h2{
 #intro_section button:hover, #intro_section button:active{
     background-color: hsl(176, 68%, 64%);
 }
+
+#second_section img{
+   min-height: 100px;
+}
+
+#second_section p{
+    font-size: 1rem;
+ }
 
 
 
