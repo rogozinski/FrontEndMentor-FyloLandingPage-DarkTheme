@@ -54,7 +54,12 @@ h2{
    min-height: 100px;
 }
 
-#second_section p{
+#second_section h2{
+    margin-top: 3rem;
+ }
+
+ #second_section p{
+    margin-top: 1rem;
     font-size: 1rem;
  }
 
