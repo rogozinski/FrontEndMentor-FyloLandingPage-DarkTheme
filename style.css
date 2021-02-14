@@ -2,7 +2,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    background-color: hsl(217, 28%, 15%);
+    background-color: hsl(218, 28%, 13%);
     color: hsl(176, 68%, 64%);
     display: flex;
     flex-direction: column;
@@ -41,13 +41,13 @@ h2{
 #intro_section h1{
     font-size: 3em;
 }
-#intro_section button{
+#intro_section button, #fifth_section button{
     font-weight: 700;
     padding: 0.75rem 3.75rem;
     background-color: hsl(198, 60%, 50%);
 }
 
-#intro_section button:hover, #intro_section button:active{
+#intro_section button:hover, #intro_section button:active, #fifth_section button:hover, #fifth_section button:active{
     background-color: hsl(176, 68%, 64%);
 }
 
@@ -59,13 +59,128 @@ h2{
     font-size: 1rem;
  }
 
+#third_section p{
+    font-size: 1em;
+    margin-top: 1.5rem;
+}
+
+#third_section h2{
+    font-size: 3rem;
+}
 
 
+
+#third_section a{
+    color: hsl(198, 60%, 50%);
+    transition: color 0.5s;
+    font-size: 1em;
+    font-weight: 400;
+}
+#third_section a:hover{
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+}
+
+/*
+#fourth_section{
+    height: 100%;
+}
+
+ .testimonial{
+    background-color: hsl(219, 30%, 18%);
+    padding: 2em 1rem;
+    
+}
+
+.user-name, .user-comment{
+    color: hsl(300, 24%, 96%);
+}
+
+.testimonial img{
+    border-radius: 50%;
+    transform-origin: top;
+    transform: scale(0.4, 0.4);
+    float: left;
+}
+
+.user-name {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.user-position{
+    color:hsl(333, 80%, 67%);
+} */
+
+#fifth_section{
+    background-color: hsl(217, 28%, 15%);
+    transform: translateY(3rem);
+    border-radius: 3%;
+}
+
+
+#fifth_section input{
+    height: 3rem; 
+    
+}
+
+#fifth_section input::placeholder{
+    color: hsl(176, 68%, 64%);
+    padding-left: 2rem;
+}
+
+#fifth_section button{
+    padding:  0.85rem;
+    font-size: 0.75rem;
+}
 
 /*---------FOOTER-----------*/
 footer{
+    padding-top: 5rem;
+    color: hsl(0, 0%, 100%);;
     background-color: hsl(216, 53%, 9%);
 }
+
+footer li{
+    list-style: none;
+    margin: 1rem 0;
+    padding-left: 0;
+}
+
+footer a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    transition: color 0.5s;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+footer a:hover{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+#footer_location{
+    margin: 1rem 0;
+}
+
+#social_media{
+    justify-content: center;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#social_media a{
+    margin: 0 0.75rem;
+}
+
+#social_media a:hover{
+    font-weight: 700;
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+}
+
 
 .attribution {
     font-size: 11px;
