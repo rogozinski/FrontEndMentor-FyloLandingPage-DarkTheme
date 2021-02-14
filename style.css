@@ -37,6 +37,10 @@ h2{
     font-weight: 700;
 }
 
+#intro_section{
+    width: 75%;
+}
+
 #intro_section h1{
     font-size: 3rem;
 }
@@ -195,6 +199,10 @@ footer a:hover{
   }
 
   @media(max-width:400px){
+
+    #intro_section{
+        width: 100%;
+    }
      #intro_section h1{
           font-size: 2em;
       }
@@ -207,5 +215,6 @@ footer a:hover{
         font-size: 0.7em;
     }
 
+    
 
   }
