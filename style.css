@@ -6,7 +6,6 @@ body{
     color: hsl(176, 68%, 64%);
     display: flex;
     flex-direction: column;
-    align-items: space-between;
 }
 
 
@@ -74,6 +73,7 @@ h2{
     font-size: 1em;
     font-weight: 400;
 }
+
 #third_section a:hover{
     color: hsl(0, 0%, 100%);
     text-decoration: underline;
@@ -82,59 +82,39 @@ h2{
 
 .testimonial{
     background-color: hsl(219, 30%, 18%);
-    padding: 2em 1rem;
-    
+    padding: 2em 1rem 0;
+    border-radius: 2%;
+    box-shadow: 4px 4px 5px 5px  hsla(217, 28%, 15%, 0.7);
 }
 .testimonial img{
-    transform: scale(0.4, 0.4);
+    transform: scale(0.3, 0.3);
     border-radius: 50%;
+    transform-origin: left;
 }
 
-
-/*
-
-
- .testimonial{
-    background-color: hsl(219, 30%, 18%);
-    padding: 2em 1rem;
-    
-}
-
-.user-name, .user-comment{
-    color: hsl(300, 24%, 96%);
-}
-
-.testimonial img{
-    border-radius: 50%;
-    transform-origin: top;
-    transform: scale(0.4, 0.4);
-    float: left;
-}
-
-.user-name {
+.user-name{
+    color: hsl(0, 0%, 100%);
     font-weight: 700;
-    margin-bottom: 0;
 }
 
 .user-position{
-    color:hsl(333, 80%, 67%);
-} */
+    font-size: 0.8em;
+}
 
 #fifth_section{
     background-color: hsl(217, 28%, 15%);
-    transform: translateY(3rem);
+    transform: translateY(8rem);
     border-radius: 3%;
 }
 
 
 #fifth_section input{
     height: 3rem; 
-    
+    padding-left: 2rem;
 }
 
 #fifth_section input::placeholder{
     color: hsl(176, 68%, 64%);
-    padding-left: 2rem;
 }
 
 #fifth_section button{
@@ -144,7 +124,7 @@ h2{
 
 /*---------FOOTER-----------*/
 footer{
-    padding-top: 5rem;
+    padding-top: 8rem;
     color: hsl(0, 0%, 100%);;
     background-color: hsl(216, 53%, 9%);
 }
@@ -169,6 +149,10 @@ footer a:hover{
     text-decoration: none;
 }
 
+footer img{
+    transform: scale(0.7, 0.7);
+}
+
 #footer_location{
     margin: 1rem 0;
 }
@@ -179,8 +163,9 @@ footer a:hover{
     text-align: center;
 }
 
-#social_media a{
-    margin: 0 0.75rem;
+
+#social_media svg{
+    margin: 1rem 0.25rem;
 }
 
 #social_media a:hover{
