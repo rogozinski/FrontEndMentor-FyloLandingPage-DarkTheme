@@ -88,6 +88,9 @@ h2{
     text-decoration: underline;
 }
 
+#second_section, #third_section, #fourth_section{
+    margin-top: 12rem;
+}
 
 .testimonial{
     background-color: hsl(219, 30%, 18%);
@@ -108,6 +111,17 @@ h2{
 
 .user-position{
     font-size: 0.8em;
+}
+
+#quote_pic{
+    position: relative;
+    transform: translate(-1rem, 1rem);
+    z-index: 1;
+}
+
+#first_testimonial{
+    position: relative;
+    z-index: 2;
 }
 
 #fifth_section{
@@ -214,7 +228,5 @@ footer a:hover{
     #mainNavbar a{
         font-size: 0.7em;
     }
-
-    
 
   }
