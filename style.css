@@ -39,7 +39,7 @@ h2{
 }
 
 #intro_section h1{
-    font-size: 3em;
+    font-size: 3rem;
 }
 #intro_section button, #fifth_section button{
     font-weight: 700;
@@ -67,8 +67,6 @@ h2{
 #third_section h2{
     font-size: 3rem;
 }
-
-
 
 #third_section a{
     color: hsl(198, 60%, 50%);
