@@ -79,10 +79,20 @@ h2{
     text-decoration: underline;
 }
 
-/*
-#fourth_section{
-    height: 100%;
+
+.testimonial{
+    background-color: hsl(219, 30%, 18%);
+    padding: 2em 1rem;
+    
 }
+.testimonial img{
+    transform: scale(0.4, 0.4);
+    border-radius: 50%;
+}
+
+
+/*
+
 
  .testimonial{
     background-color: hsl(219, 30%, 18%);
